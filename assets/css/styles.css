@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Bold';
+}
+
+
+.general-cont {
+    min-width: 100vh;
+    height: 100vh;
+    display: flex;
+    text-size-adjust: 12px;
+}
+.contenedor-divs-maria {
+    justify-content: space-between;
+} 
+    
+
+.left-cont{
+    width: 250px;
+    display: flex; 
+    align-items: flex-start;
+    background-color: white;
+    min-height: 100vh;
+    width: 210px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 10px;
+    color: #bec1bb;
+}
+
+/*contenedores*/
+
+main {
+    background-color: white;
+}
+
+/*foto*/
+main .input-div >imput{
+    width: 90%;
+    height: 37%;
+    padding: px;
+    margin-left: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: grey;
+    border: none;
+    outline: none;
+}
+main div>img {  /*imagen*/
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 5px;
+}
+main .div-messages-maria {
+    display: flex;
+    padding: 10;
+    border-top: solid 1px;
+    margin: 0;
+    border-radius: solid 1px;
+    border-end-end-radius: solid 1px;
+
+}
+
+.btn1{
+    color: white;
+    background-color: #A491D2;
+    display: flex;
+    border: 0;
+    height: 50%;
+    padding: 25px 60px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+main .div-messages{ /*lineas separacion*/
+    display: flex;
+    padding: 5px;
+    border-top: solid 1px;
+    border-radius: solid 1px;
+    border-end-end-radius: solid;
+    margin: 0;
+}
+.nombre {
+    margin: 0;
+}
+
+.right-cont {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e8ebe4;
+    
+  }
+img {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+
+}
+.invitacion {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    margin-bottom: 0;
+  
+
+}
+
